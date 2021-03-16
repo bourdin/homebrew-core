@@ -53,7 +53,6 @@ class Mpich < Formula
                           "--enable-g=dbg",
                           "--enable-romio",
                           "--enable-shared",
-                          "--enable-sharedlibs=gcc-osx",
                           "--with-pm=hydra",
                           "FC=gfortran-#{Formula["gcc"].any_installed_version.major}",
                           "F77=gfortran-#{Formula["gcc"].any_installed_version.major}",
