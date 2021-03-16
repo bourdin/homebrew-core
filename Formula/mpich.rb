@@ -54,8 +54,6 @@ class Mpich < Formula
                           "--enable-shared",
                           "--enable-sharedlibs=gcc-osx",
                           "--with-pm=hydra",
-                          "CC=gcc-#{Formula["gcc"].any_installed_version.major}",
-                          "CXX=g++-#{Formula["gcc"].any_installed_version.major}",
                           "FC=gfortran-#{Formula["gcc"].any_installed_version.major}",
                           "F77=gfortran-#{Formula["gcc"].any_installed_version.major}",
                           "--disable-silent-rules",
